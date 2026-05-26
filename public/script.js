@@ -82,7 +82,7 @@ const productDetails = document.getElementById("product-details");
 // querySelector
 const searchInput = document.querySelector("#search");
 const categorySelect = document.querySelector("#category");
-const renderButton = document.querySelector("#render-btn");
+const renderButton = document.querySelector("#btnRender");
 
 // 1. formatPrice(preco)
 function formatPrice(preco) {
