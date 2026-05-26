@@ -5,7 +5,7 @@ const data = {
         nome: "Smartphone Galaxy S23",
         preco: 3499.90,
         categoria: "Celulares",
-        imagem: "https://example.com/imagens/galaxy-s23.jpg",
+        imagem: "https://images.samsung.com/is/image/samsung/p6pim/br/2302/gallery/br-galaxy-s23-s911-sm-s911bzekzto-thumb-534840704",
         descricao: "Smartphone com 128GB de armazenamento, câmera de alta resolução e excelente desempenho.",
         emEstoque: true
       },
@@ -14,7 +14,7 @@ const data = {
         nome: "Notebook Dell Inspiron 15",
         preco: 4599.00,
         categoria: "Notebooks",
-        imagem: "https://example.com/imagens/dell-inspiron-15.jpg",
+        imagem: "https://d30u9wim1barf6.cloudfront.net/Custom/Content/Products/98/72/987206_notebook-dell-inspiron-15-7580-15-6-fhd-i7-8565u-1tbplus128gb-ssd-16gb-nvidia-2gb-linux-pratanac005885_m1_637135786673158817.webp",
         descricao: "Notebook com processador Intel i7, 16GB de RAM e SSD de 512GB, ideal para trabalho e estudos.",
         emEstoque: false
       },
@@ -23,7 +23,7 @@ const data = {
       nome: "Notebook Dell",
       preco: 3800,
       categoria: "Notebooks",
-      imagem: "https://via.placeholder.com/200x150",
+      imagem: "https://cdn.awsli.com.br/2500x2500/19/19974/produto/399297133/notebook-dell-pro-14-ryzen-7-pro-16gb-512gb-ssd-c6c1a774-jp6v6cho1p.jpg",
       descricao: "Notebook ideal para estudos.",
       emEstoque: false
     },
@@ -32,7 +32,7 @@ const data = {
       nome: "MacBook Air",
       preco: 8500,
       categoria: "Notebooks",
-      imagem: "https://via.placeholder.com/200x150",
+      imagem: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-air-size-unselect-202601-gallery-1_FMT_WHH?wid=690&hei=720&fmt=jpeg&qlt=90&.v=1767638908527",
       descricao: "Notebook leve e poderoso.",
       emEstoque: true
     },
@@ -41,7 +41,7 @@ const data = {
       nome: "Mouse Gamer",
       preco: 250,
       categoria: "Acessórios",
-      imagem: "https://via.placeholder.com/200x150",
+      imagem: "https://http2.mlstatic.com/D_NQ_NP_691264-MLA109735456848_042026-O.webp",
       descricao: "Mouse RGB com alta precisão.",
       emEstoque: true
     },
@@ -50,7 +50,7 @@ const data = {
       nome: "Teclado Mecânico",
       preco: 450,
       categoria: "Acessórios",
-      imagem: "https://via.placeholder.com/200x150",
+      imagem: "https://cdn.awsli.com.br/2500x2500/1318/1318167/produto/298694352/k642-rgb-8708-pt--7-e9zokgneq4.jpg",
       descricao: "Teclado mecânico para games.",
       emEstoque: true
     },
@@ -59,16 +59,16 @@ const data = {
       nome: "PlayStation 5",
       preco: 4200,
       categoria: "Games",
-      imagem: "https://via.placeholder.com/200x150",
+      imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5V8a_KVFbZmgInQlRhNJLeUDZg5Gkw8NbBA&s.placeholder.com/200x150",
       descricao: "Console de última geração.",
       emEstoque: false
     },
     {
       id: 8,
-      nome: "Xbox Series X",
+      nome: "Xbox Series X",    
       preco: 4100,
       categoria: "Games",
-      imagem: "https://via.placeholder.com/200x150",
+      imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzxCXd5cQt-GJREvBFPMGnLoop9hlwVLcUtw&s",
       descricao: "Console Microsoft poderoso.",
       emEstoque: true
     }
@@ -109,7 +109,7 @@ function createProductCard(produto) {
   card.style.padding = "10px";
   card.style.margin = "10px";
   card.style.borderRadius = "8px";
-  card.style.background = "#f9f9f9";
+  card.style.background = "#ffffff";
   card.style.width = "220px";
 
   // Conteúdo
@@ -138,7 +138,7 @@ function createProductCard(produto) {
 
     if (card.classList.contains("highlight")) {
       card.style.border = "3px solid red";
-      card.style.background = "#ffe5e5";
+      card.style.background = "#ffffff";
     } else {
       card.style.border = "1px solid #ccc";
       card.style.background = "#f9f9f9";
