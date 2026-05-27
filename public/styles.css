@@ -1,3 +1,89 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+.card {
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card:hover {
+    transform: scale(1.03);
+}
+header {
+    padding: 30px 100px;
+    background-color: rgb(0, 255, 191);
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+}
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    gap: 0px;
+    transition: 0.3s;
+}
+
+input:hover {
+    transform:translateY(-1px)
+}
+#search-button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 4px 10px rbga(0,0,0,0.2);
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#search-button:hover {
+    background-color: rgba(202, 202, 202);
+    transform:translateY(-1px)
+}
+#category {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 4px 10px rbga(0,0,0,0.2);
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#btnRender {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 4px 10px rbga(0,0,0,0.2);
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+    cursor: pointer;
+}
+#btnRender:hover {
+    background-color: #cacaca;
+    transform:translateY(-1px)
+}
+#category:hover {
+    transform:translateY(-1px)
+}
+footer {
+    text-align: center;
+    padding: 5px ;
+    background-color: rgb(0, 255, 191);
+    margin: 10px;
 }

@@ -23,7 +23,7 @@ const data = {
       nome: "Notebook Dell",
       preco: 3800,
       categoria: "Notebooks",
-      imagem: "https://cdn.awsli.com.br/2500x2500/19/19974/produto/399297133/notebook-dell-pro-14-ryzen-7-pro-16gb-512gb-ssd-c6c1a774-jp6v6cho1p.jpg",
+      imagem: "https://images.tcdn.com.br/img/img_prod/1324137/notebook_dell_16_plus_7144blu_pus_intel_core_ultra_2_20250902110845_cf9a5f3ad46a.jpg",
       descricao: "Notebook ideal para estudos.",
       emEstoque: false
     },
@@ -32,7 +32,7 @@ const data = {
       nome: "MacBook Air",
       preco: 8500,
       categoria: "Notebooks",
-      imagem: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-air-size-unselect-202601-gallery-1_FMT_WHH?wid=690&hei=720&fmt=jpeg&qlt=90&.v=1767638908527",
+      imagem: "https://importadorausabrasil.com.br/cdn/shop/files/mba15-m4-midnight-gallery1-202503.jpg?v=1755184308&width=4000",
       descricao: "Notebook leve e poderoso.",
       emEstoque: true
     },
@@ -74,7 +74,6 @@ const data = {
     }
   ]
 };
-
 // getElementById
 const productList = document.getElementById("product-list");
 const productDetails = document.getElementById("product-details");
